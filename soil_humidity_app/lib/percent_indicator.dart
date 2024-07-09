@@ -25,23 +25,23 @@ class PercentIndicator extends StatelessWidget {
     return Stack(
       children: [
         SizedBox(
-          height: 210,
-          width: 210,
+          height: 250,
+          width: 250,
           child: CircularProgressIndicator(
             value: percent,
             color: color,
           ),
         ),
         SizedBox(
-          height: 210,
-          width: 210,
+          height: 250,
+          width: 250,
           child: Center(
             child: Text(
               _message != null
                   ? _message!
                   : '${((percent ?? 0) * 100).toStringAsFixed(0)}%',
               style: const TextStyle(
-                fontSize: 32,
+                fontSize: 28,
                 fontWeight: FontWeight.w200,
               ),
             ),

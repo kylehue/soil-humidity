@@ -1,4 +1,4 @@
-package com.iqfareez.soil_humidity_app
+package com.soil_humidity_app
 
 import io.flutter.embedding.android.FlutterActivity
 

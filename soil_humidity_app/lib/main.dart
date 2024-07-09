@@ -12,12 +12,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Soil Humidity App',
+      title: 'Hydroplant',
       theme: ThemeData(
         primarySwatch: Colors.green,
         useMaterial3: true,
       ),
-      home: const MyHomePage(title: 'Plant Companion App'),
+      home: const MyHomePage(title: 'Hydroplant'),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
